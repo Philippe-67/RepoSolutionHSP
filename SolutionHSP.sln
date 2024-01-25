@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAgendaPraticien", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePriseRDV", "ServicePriseRDV\ServicePriseRDV.csproj", "{FC7527E0-D574-489B-8395-63E184443D00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{0DAE3A9A-1363-4193-B681-D76898995F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FC7527E0-D574-489B-8395-63E184443D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC7527E0-D574-489B-8395-63E184443D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7527E0-D574-489B-8395-63E184443D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAE3A9A-1363-4193-B681-D76898995F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAE3A9A-1363-4193-B681-D76898995F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAE3A9A-1363-4193-B681-D76898995F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAE3A9A-1363-4193-B681-D76898995F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
