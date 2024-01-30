@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using ServiceAgendaPraticien.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ServiceAgendaPraticienContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ServiceAgendaPraticienContext") ?? throw new InvalidOperationException("Connection string 'ServiceAgendaPraticienContext' not found.")));
 
 // Add services to the container.
 
